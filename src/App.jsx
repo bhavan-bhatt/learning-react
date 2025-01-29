@@ -1,10 +1,18 @@
-import './App.css'
+import Footer from "./components/Footer"
+import Greetings from "./components/Greetings"
+import Header from "./components/Header"
+import MainContent from "./components/MainContent"
+import ProductInfo from "./components/ProductInfo"
 
 function App() {
 
   return (
     <>
-    <h1> Hello World</h1>
+    <Header />
+    <Greetings />
+    <MainContent />
+    <ProductInfo />
+    <Footer />
     </>
   )
 }
